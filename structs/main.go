@@ -29,6 +29,7 @@ func main() {
 	sp := &s
 	fmt.Println(sp.age)
 
+	// structs are mutable
 	sp.age = 88
 	fmt.Println(s)
 	fmt.Println(s, *sp)
